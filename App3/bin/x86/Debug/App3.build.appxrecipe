@@ -345,8 +345,8 @@
     <AppxPackagedFile Include="C:\Users\David Ro\Documents\Visual Studio 2015\Projects\App3\App3\Assets\calc_logo.jpg">
       <PackagePath>Assets\calc_logo.jpg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\David Ro\Documents\Visual Studio 2015\Projects\App3\App3\Assets\msp3.png">
-      <PackagePath>Assets\msp3.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\David Ro\Documents\Visual Studio 2015\Projects\App3\App3\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\David Ro\Documents\Visual Studio 2015\Projects\App3\App3\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -374,9 +374,6 @@
     <AppxPackagedFile Include="C:\Users\David Ro\Documents\Visual Studio 2015\Projects\App3\App3\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\David Ro\Documents\Visual Studio 2015\Projects\App3\App3\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\David Ro\Documents\Visual Studio 2015\Projects\App3\App3\bin\x86\Debug\App3.xr.xml">
       <PackagePath>App3.xr.xml</PackagePath>

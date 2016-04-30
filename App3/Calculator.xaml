@@ -9,7 +9,7 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-        <VisualStateManager.VisualStateGroups>
+        <!--<VisualStateManager.VisualStateGroups>
             <VisualStateGroup>
                 <VisualState x:Name="wideState">
                     <VisualState.StateTriggers>
@@ -30,7 +30,7 @@
                     </VisualState.Setters>
                 </VisualState>
             </VisualStateGroup>
-        </VisualStateManager.VisualStateGroups>
+        </VisualStateManager.VisualStateGroups>-->
 
 
         <Grid.RowDefinitions>
@@ -57,7 +57,7 @@
         </StackPanel>
 
         <StackPanel>
-            <Button x:Name="Tambah" Content="+" Width="300" Margin="10,200,10,420" Grid.Row="1" Click="click_tambah" FontWeight="Bold" BorderBrush="Black" Foreground="{ThemeResource AppBarBackgroundThemeBrush}" AutomationProperties.PositionInSet="0" AutomationProperties.SizeOfSet="0" HorizontalAlignment="Stretch" >
+            <Button x:Name="Tambah" Content="+" Width="300" Margin="10,200,10,420" Grid.Row="1" Click="click_tambah" FontWeight="Bold" BorderBrush="Black" AutomationProperties.PositionInSet="0" AutomationProperties.SizeOfSet="0" HorizontalAlignment="Stretch" Foreground="{x:Null}" >
                 <Button.Background>
                     <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                         <GradientStop Color="Black" Offset="0"/>
